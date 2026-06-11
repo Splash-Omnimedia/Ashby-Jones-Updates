@@ -231,6 +231,7 @@
         <ul class="cats" id="cats">
           <li><button class="active" data-cat="all">All Posts <span class="count"></span></button></li>
           <li><button data-cat="reset">Reset Rituals <span class="count"></span></button></li>
+          <li><button data-cat="lettershim">Letters to Him <span class="count"></span></button></li>
           <li><button data-cat="coparenting">Co-Parenting &amp; Children <span class="count"></span></button></li>
           <li><button data-cat="coping">Coping Tools <span class="count"></span></button></li>
           <li><button data-cat="growth">Personal Growth <span class="count"></span></button></li>
@@ -319,7 +320,7 @@
   const posts = [
     {title:"Pick Up the Pen", date:"June 9, 2026", cat:"reset", catLabel:"Reset Rituals", excerpt:"On the steadying act of writing your way back to yourself when everything feels uncertain."},
     {title:"I Am. Two Words That Begin to Move You Forward.", date:"May 29, 2026", cat:"reset", catLabel:"Reset Rituals", excerpt:"A daily practice for when you feel stuck — starting with two of the most powerful words you can say."},
-    {title:"Letters to Him (The Reset Ritual)", date:"May 13, 2026", cat:"reset", catLabel:"Reset Rituals", excerpt:"A guided writing exercise to process, release, and reset after a hard chapter."},
+    {title:"Letters to Him (The Reset Ritual)", date:"May 13, 2026", cat:"lettershim", catLabel:"Letters to Him", excerpt:"A guided writing exercise to process, release, and reset after a hard chapter."},
     {title:"Letters to Her (The Reset Ritual)", date:"May 13, 2026", cat:"reset", catLabel:"Reset Rituals", excerpt:"A guided writing exercise to process, release, and reset after a hard chapter."},
     {title:"Letters to Her & Letters to Him", date:"May 13, 2026", cat:"reset", catLabel:"Reset Rituals", excerpt:"An introduction to the Reset Ritual letter series and how to use it."},
     {title:"Practical Tools for the Hard Moments: The Three Breaths Method", date:"May 7, 2026", cat:"coping", catLabel:"Coping Tools", excerpt:"A simple, repeatable technique for finding your footing in the middle of a difficult moment."},
@@ -335,7 +336,7 @@
     {title:"Finding Peace Through Transition: Why I Became a Divorce Coach", date:"March 3, 2026", cat:"growth", catLabel:"Personal Growth", excerpt:"Tobia shares the personal turning point behind this work."},
     {title:"Prominent SC Divorce Lawyer Ashby Jones Launches New Practice", date:"November 1, 2023", cat:"news", catLabel:"Firm News", excerpt:"Reinforcing her commitment to the South Carolina community with a new firm."}
   ];
-  const catNames = {all:"All Posts",reset:"Reset Rituals",coparenting:"Co-Parenting & Children",coping:"Coping Tools",growth:"Personal Growth",news:"Firm News"};
+  const catNames = {all:"All Posts",reset:"Reset Rituals",lettershim:"Letters to Him",coparenting:"Co-Parenting & Children",coping:"Coping Tools",growth:"Personal Growth",news:"Firm News"};
 
   const PAGE = 8;
   let activeCat = "all", query = "", shown = PAGE;
